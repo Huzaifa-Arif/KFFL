@@ -12,7 +12,7 @@ The code is modular and the simplest way to run the code is to use the following
 
  - ***Dataset***: (ADULT or COMPASS). 
  - ***Distribution :***  (IID, Non-IID).
- - ***Methods:*** 1)KRTWD **(KFFL)**,  2) KRTD **(KFFL-TD)** , 3) MinMax,4) FairFed/FairBatch, 5) Fed-Avg, 6) Centralized_KHSIC
+ - ***Methods (Baselines):*** 1)KRTWD **(KFFL)**,  2) KRTD **(KFFL-TD)** , 3) MinMax,4) FairFed/FairBatch, 5) Fed-Avg, 6) Centralized_KHSIC
  - ***Number of Simulations*** : Adjust for Statistical 
  -   **Fairness Weights**: Adjust for desired tradeoff
 
