@@ -1,2 +1,39 @@
-# KFFL
+## KFFL
 This repository contains code for Fair Federated Learning
+
+
+## Instructions for Running the code:
+
+The code is modular and the simplest way to run the code is to use the following command in the terminal
+
+    - `python3 test_functions.py` . 
+
+ contains the following parameters that can be changed:
+
+ - ***Dataset***: (ADULT or COMPASS). 
+ - ***Distribution :***  (IID, Non-IID).
+ - ***Methods:*** KRTWD **(KFFL)**,  KRTD **(KFFL-TD)** , MinMax, FairFed/FairBatch,Fed-Avg
+ - ***Number of Simulations*** : Adjust for Statistical 
+ -   **Fairness Weights**: Adjust for desired tradeoff
+
+## Sample Output
+
+Running the above file yields the following output 
+
+    accuracy 0.8347153123272526: SPD: 0.1567 EOD: 0.1631 Cost:  0.0000
+
+The `accuracy` is the test accuracy.  `SPD` and `EOD`  are the evaluation metrics corresponding to statistical parity and equalized odds. (Ignore the term `Cost` as that is not implemented correctly).
+
+## Main Support Files
+
+    main.py  
+Gives you the control to choose **step size, batch size, local epochs** and **number of clients** in the federated learning process.
+
+    methods.py
+Has all the methods (KFFL and baselines) implemented.
+
+    kernel_utils.py
+Contains the implementation for helper functions, client and server methods.
+
+
+The other files are self explanatory.
