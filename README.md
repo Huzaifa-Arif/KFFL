@@ -24,7 +24,7 @@ Running the above file yields the following output
 
 The `accuracy` is the test accuracy.  `SPD` and `EOD`  are the evaluation metrics corresponding to statistical parity and equalized odds. (Ignore the term `Cost` as that is not implemented correctly).
 
-## Main Support Files
+## Main Support Files (Explanation)
 
     main.py  
 Gives you the control to choose **step size, batch size, local epochs** and **number of clients** in the federated learning process.
@@ -36,4 +36,3 @@ Has all the methods (KFFL and baselines) implemented.
 Contains the implementation for helper functions, client and server methods.
 
 
-The other files are self explanatory.
