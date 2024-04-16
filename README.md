@@ -38,9 +38,9 @@ The `accuracy` is the test accuracy.  `SPD` and `EOD`  are the evaluation metric
 Gives you the control to choose **step size, batch size, local epochs** and **number of clients** in the federated learning process.
 
     methods.py
-Has all the methods (KFFL and baselines) implemented.
+Has all the baseline methods  (KFFL and baselines) implemented.
 
     kernel_utils.py
-Contains the implementation for helper functions, client and server methods.
+Contains the implementation for helper functions, client and server functions,KHSIC etc.
 
 
