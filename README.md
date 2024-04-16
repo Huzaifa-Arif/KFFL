@@ -23,7 +23,7 @@ The code is modular and the simplest way to run the code is to use the following
  - ***Number of Simulations*** : Adjust for inspecting statistical variance in the output
  -   **Fairness Weights**: Adjust for desired tradeoff
 
-**Note**: Method KFFL-TD requires a bit of finetuning. Dont run that for now 
+
 ## Sample Output
 
 Running the above file yields the following output 
