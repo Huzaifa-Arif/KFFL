@@ -4,9 +4,12 @@ This repository contains code for Fair Federated Learning
 
 ## Instructions for Running the code:
 
- To create an environment use : 
+ To create the environment do the following : 
 
     conda env create -f environment.yml
+    
+    conda activate environment.yml 
+
 
 The code is modular and the simplest way to run the code is to use the following command in the terminal
 
