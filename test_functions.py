@@ -24,7 +24,7 @@ import numpy as np
 dataset = ['ADULT'] #,#'COMPAS']
 model = ['LR'] #'LR']  # 'NN' --> KRTD and KRTWD
 #methods = ['KRTWD','KRTD']#'KRTD' , # 'FairFed_w_FairBatch_kernel'
-methods = ['KRTD'] # 'KRTWD','Central','FairFed_w_FairBatch', 'FedAvg','MinMax''FairFed_w_FairBatch_kernel'
+methods = ['KRTWD'] # 'KRTWD','Central','FairFed_w_FairBatch', 'FedAvg','MinMax''FairFed_w_FairBatch_kernel'
 #methods = ['KRTWD']
 dist = ['Non-IID'] #'IID'] 
 
