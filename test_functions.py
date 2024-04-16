@@ -33,7 +33,7 @@ numsims = 1
 
 # Define fairness parameters for KRTWD and KRTD
 fairness_params = {
-    'KRTWD': list( np.linspace(20, 200, 10)),#list( np.logspace(-9, -6, 7)), ## between 10** -8 and 10** -9
+    'KRTWD': list( np.linspace(20, 1000, 20)),#list( np.logspace(-9, -6, 7)), ## between 10** -8 and 10** -9
     'KRTD': [100],#list( np.logspace(-3, -1, 7)) #list( np.logspace(-3, -1, 7))#list( np.logspace(-3, -1, 7)), #*0.0000005],#[1e-10, 1e0, 1e1, 1e2, 1e10]
     'FairFed_w_FairBatch_kernel':[0],
     'Central' : [10**-8,10**-9,10**-10,10**-11,10**-12,10**-13]
