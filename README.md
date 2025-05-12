@@ -1,6 +1,8 @@
 ## KFFL
 This repository contains code for Fair Federated Learning
 
+(The Regression and Multi Sensitive Experiments are not in this repo right now. Will update a finetuned version of this repo)
+
 
 ## Instructions for Running the code:
 
